@@ -1,2 +1,4 @@
 [0731/175041.676:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
 [0731/181645.262:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\swyssauro\AppData\Local\Microsoft\Edge Dev\User Data\Crashpad\attachments\a8aecb22-e71a-4d5d-aa49-943b2c5fca77: O sistema não pode encontrar o caminho especificado. (0x3)
+[0801/044543.981:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\swyssauro\AppData\Local\Microsoft\Edge Dev\User Data\Crashpad\attachments\2608c3ea-4a44-4dbc-a802-8c95e4127bf3: O sistema não pode encontrar o caminho especificado. (0x3)
+[0802/202808.090:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)

@@ -16,6 +16,12 @@
 .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon {
     padding: 17px 9px !important;
 }
+.container {
+    position: absolute;
+    top: 16rem;
+    width: 100%;
+    text-align: center;
+}
 .ui.dropdown>.text {
     display: inline-block;
     transition: none;
