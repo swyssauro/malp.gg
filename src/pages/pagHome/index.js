@@ -8,7 +8,7 @@ function pagHome() {
   return (
     <>
       <div className="container">
-      <img src={mallsmall} alt="mapsmall" />
+      <img className="anim-logo" src={mallsmall} alt="mapsmall" />
       </div>
       <div className="input-name">
         <InputForm />
