@@ -13,6 +13,9 @@
 .ui.input {
     width: 23%;
 }
+input[type="text"] {
+    border: 0px solid #22242626 !important;
+}
 .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon {
     padding: 17px 9px !important;
 }
