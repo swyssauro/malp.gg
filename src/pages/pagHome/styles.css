@@ -1,37 +1,10 @@
-.malp_svg {
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-}
-.input-name {
-    background: #0000 !important;
-    text-align: center;
-    top: 25rem;
-    width: 100%;
-    position: absolute;
-}
-.ui.input {
-    width: 23%;
-}
-input[type="text"] {
-    border: 0px solid #22242626 !important;
-}
-.ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon {
-    padding: 17px 9px !important;
-}
-.container {
-    position: absolute;
-    top: 16rem;
-    width: 100%;
-    text-align: center;
-}
-.ui.dropdown>.text {
-    display: inline-block;
-    transition: none;
-    top: 5px;
-    position: relative;
-    margin: 0px 5px;
-}
+.malp_svg { width: 100%; position: absolute; z-index: -1; }
+.input-name { background: #0000 !important; text-align: center; top: 25rem; width: 100%; position: absolute; }
+.ui.input { width: 23%; }
+input[type="text"] { border: 0px solid #22242626 !important; }
+.ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon { padding: 17px 9px !important; }
+.container { position: absolute; top: 16rem; width: 100%; text-align: center; }
+.ui.dropdown>.text { display: inline-block; transition: none; top: 5px; position: relative; margin: 0px 5px; }
 .ui.dimmer { background-color: #1f1e1eb3 !important; }
 .ui.modal { background: #fff0 !important; }
 .ui.input>input { padding: 15px 1em !important; border: 0px solid #22242626; }
