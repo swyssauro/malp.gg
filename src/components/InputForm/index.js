@@ -6,10 +6,9 @@ import { FiSearch } from 'react-icons/fi';
 export default function InputFrom() {
 
     const [open, setOpen] = React.useState(false)
-
     const [name, setName] = useState('');
     const [data, setData] = useState([]);
-
+    
     const avatar = `http://ddragon.leagueoflegends.com/cdn/10.15.1/img/profileicon/${data.profileIconId}.png`
 
     async function handleLogin(e) {
