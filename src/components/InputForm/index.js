@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Header, Form, Button, Input, Image, Modal } from 'semantic-ui-react';
+import { Form, Button, Input, Modal } from 'semantic-ui-react';
 import api from '../../Backend';
-import { FiSearch } from 'react-icons/fi';
+import { FiSearch, FiChevronUp, FiInfo } from 'react-icons/fi';
 
 export default function InputFrom() {
 
@@ -24,10 +24,14 @@ export default function InputFrom() {
                     <input name='name' onChange={e => setName(e.target.value)} />
                     <Modal onClose={() => setOpen(false)}onOpen={() => setOpen(true)}open={open}trigger={<Button type='submit'><FiSearch /></Button>}>
                         <Modal.Content image>
-                            <Image circular size='medium' src={avatar} wrapped />
+                            <img className="avatar-st"  alt="avatar" src={avatar} />
                             <Modal.Description>
-                                <Header>Nome: {data.name}</Header>
-                                <h1>Level: {data.summonerLevel}</h1>
+                                <div className="user-data">
+                                <FiInfo /> {data.name}
+                                </div>
+                                <div className="level-data">
+                                <FiChevronUp /> {data.summonerLevel}
+                                </div>
                             </Modal.Description>
                         </Modal.Content>
                     </Modal>
